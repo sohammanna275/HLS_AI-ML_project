@@ -12,7 +12,7 @@ int main() {
     
     // 2. Load the image! 
     // The "1" at the end forces it to load as grayscale (1 channel)
-    const char* filename = "my_digit2.png";
+    const char* filename = "my_digit.png";
     unsigned char *img_data = stbi_load(filename, &width, &height, &channels, 1);
 
     if (img_data == NULL) {
